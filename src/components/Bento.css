@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #09050f;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.Container {
+  margin: 0 auto;
+  margin-top: 6%;
+}
+.Grid {
+  max-width: 1240px;
+  margin-top: 2%;
+  height: 457px;
+}
+
+.card-hello {
+  background: rgb(255, 174, 0);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 174, 0, 0.5298494397759104) 0%,
+    rgba(40, 39, 37, 0.3533788515406162) 52%
+  );
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  padding: 51px 58px;
+  border-radius: 30px 50px;
+  height: 457px;
+}
+
+.card-hello-title {
+  display: flex;
+  gap: 20px;
+}
+
+.Name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Bio {
+  color: #696969;
+  font-weight: 600;
+}
+.Socials {
+  display: flex;
+  gap: 15px;
+}
+
+.Socials > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  background-color: #1f1f1fb8;
+  border-radius: 13%;
+  transition: background-color 0.3s;
+}
+
+.twitter,
+.Github {
+  height: 22px;
+  width: 22px;
+}
+.LinkedIn {
+  height: 25px;
+  width: 25px;
+}
+.card-hello-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container {
+  margin: 20px; /* Optional: Adjust the margin */
+}
+
+.profile-image {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* This makes the image a circle */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  /* border: 2px solid #fff; Optional: Add a white border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+
+.card-hello-bottom {
+  margin-top: 4%;
+
+  line-height: normal;
+}
+
+.Description1 {
+  margin-right: 15%;
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+
+.Description2 {
+  margin-right: 30%;
+  font-size: 20px;
+}
+
+.Profile-card {
+  background: rgb(70, 69, 61);
+  background: linear-gradient(
+    0deg,
+    rgba(70, 69, 61, 0.8211659663865546) 31%,
+    rgba(255, 196, 0, 0.6446953781512605) 100%
+  );
+  border-radius: 30px 50px;
+}
+
+.ProfilePic{
+    margin  : none;
+}
